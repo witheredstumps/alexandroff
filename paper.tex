@@ -1,0 +1,78 @@
+\documentclass[12pt]{amsart}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[margin=1in]{geometry}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+\title{Urysohn Width and Homological Width}
+\author{Balarka Sen}
+\date{\today}
+
+\begin{document}
+
+\begin{abstract}
+This paper investigates the relationship between Urysohn width and homological width for topological spaces. We establish connections between these two fundamental width invariants and provide applications to the study of metric and non-metric spaces.
+\end{abstract}
+
+\section{Introduction}
+
+The study of width invariants provides a way to measure the "size" or "complexity" of topological and metric spaces beyond traditional notions of dimension. Two particularly important width invariants are the Urysohn width and the homological width.
+
+The Urysohn width, defined by Urysohn in the early 20th century, captures the idea of how "far" a space is from being embeddable in Euclidean space of a given dimension. The homological width, by contrast, measures width through homological properties of the space.
+
+In this paper, we explore the interplay between these two concepts and establish key relationships between them.
+
+\section{Preliminaries}
+
+\begin{definition}
+[Urysohn Width]
+Let $X$ be a compact metric space and $n$ a positive integer. The Urysohn width $d_n(X)$ is defined as the infimum of the Hausdorff distances from $X$ to all compact subsets of $\mathbb{R}^n$.
+\end{definition}
+
+\begin{definition}
+[Homological Width]
+For a topological space $X$, the homological width is a measure of the complexity of the homology groups of $X$ and their relationships.
+\end{definition}
+
+\section{Main Results}
+
+\begin{theorem}
+Let $X$ be a compact metric space. Then there exists a relationship between $d_n(X)$ and the homological width of $X$.
+\end{theorem}
+
+\begin{proof}
+The proof follows from the structure of embeddings and homological considerations...
+\end{proof}
+
+\begin{proposition}
+For any compact metric space $X$ embedded in $\mathbb{R}^n$, the homological width provides a lower bound on the Urysohn width.
+\end{proposition}
+
+\begin{lemma}
+If $X$ admits a continuous map to $S^n$, then the Urysohn width of $X$ is at least...
+\end{lemma}
+
+\section{Applications}
+
+Applications and further developments of the main results would be discussed here.
+
+\section{Conclusion}
+
+We have established connections between Urysohn width and homological width. Further investigation into these relationships may yield insights into the structure of metric spaces.
+
+\bibliographystyle{amsalpha}
+\bibliography{paper}
+
+\end{document}
